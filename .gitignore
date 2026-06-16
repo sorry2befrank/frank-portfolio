@@ -1,0 +1,5 @@
+# Internal — do not publish to the public portfolio repo
+.vercel
+node_modules
+CLAUDE.md
+pitch.md

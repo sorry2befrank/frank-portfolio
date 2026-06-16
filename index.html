@@ -269,6 +269,17 @@
   }
   .contact p { color: var(--bone-dim); max-width: 48ch; margin: 0 auto 36px; }
   .contact .cta-row { justify-content: center; }
+  .contact-direct {
+    font-family: var(--mono);
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    color: var(--bone-dim);
+    margin-top: 24px;
+    -webkit-user-select: text;
+    user-select: text;
+  }
+  .contact-direct a { color: var(--brass); border-bottom: 1px solid var(--hairline); transition: color 0.25s ease, border-color 0.25s ease; }
+  .contact-direct a:hover, .contact-direct a:focus-visible { color: var(--brass-lit); border-color: var(--hairline-lit); }
 
   footer.site {
     border-top: 1px solid var(--hairline);
@@ -391,6 +402,17 @@
           <a class="visit" href="https://cosmic-blueprint.org" target="_blank" rel="noopener">View live &rarr;</a>
         </article>
 
+        <article class="card reveal">
+          <span class="ref">INSTR · 007</span>
+          <h3>The Path</h3>
+          <div class="role">Narrative RPG · Godot 4 + C#</div>
+          <p>A 2D role-playing game built in Godot&nbsp;4 with C# and .NET — a component-based engine with a dialogue system, interactable world objects, and scene transitions. Exported to HTML5 and embedded in a web page that gates chapters by membership tier through a JavaScript bridge. In active development; included as a measure of range beyond the web stack.</p>
+          <div class="tags">
+            <span class="tag">Godot 4</span><span class="tag">C# / .NET</span><span class="tag">HTML5 export</span><span class="tag">Real-time</span>
+          </div>
+          <a class="visit muted">In development</a>
+        </article>
+
       </div>
     </div>
   </section>
@@ -459,8 +481,9 @@
       <p>AI-powered apps, full-stack product work, or rescuing a prototype that needs to become real. Tell me what you're trying to ship.</p>
       <div class="cta-row">
         <a class="btn" href="mailto:frankeppsjr@gmail.com?subject=Project%20inquiry">Email me</a>
-        <a class="btn ghost" href="https://github.com/sorry2befrank/three-mountaintops-codex" target="_blank" rel="noopener">View GitHub</a>
+        <a class="btn ghost" href="https://github.com/sorry2befrank" target="_blank" rel="noopener">View GitHub</a>
       </div>
+      <p class="contact-direct">or reach me directly at <a href="mailto:frankeppsjr@gmail.com">frankeppsjr@gmail.com</a></p>
     </div>
   </section>
 </main>

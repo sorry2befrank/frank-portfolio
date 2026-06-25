@@ -1,5 +1,44 @@
-# Internal — do not publish to the public portfolio repo
-.vercel
-node_modules
+# Public repo (frank-portfolio = PUBLIC). Only the site ships.
+# Private strategy/sales/resume docs are git-ignored here so they never push public.
+
+# Agent / dev context (internal — not part of the shipped site)
 CLAUDE.md
+AGENTS.md
+
+AI-SKILLS-ROADMAP.md
+MARKETABILITY-AND-PROFIT.md
+case-study-ai-marketing-strategist.md
+cold-dm-templates.md
+contract-template.md
+outreach.md
+plan-to-the-19th.md
+weekend-offers.md
+SELL-MY-APPS-PLAYBOOK.md
+cosmic-blueprint-listing.md
+cosmic-blueprint-traction-sprint.md
+authors-codex-rebrand-plan.md
+flippa-listings.md
+flippa-setup-walkthrough.md
+contract-platforms-beyond-upwork.md
+upwork-profile.md
+capability-audit.md
+EMBEDDINGS-BUILD-BRIEF.md
+OSS-SCAN.md
+CASE-STUDY-campaign-engine.md
+CASE-STUDY-sachiel.md
+COMPANY-PLAN.md
+PACKAGES.md
+STOREFRONT.md
+alchemy-therapy-plan.md
+case-study-alchemy-therapy.md
+proposal-alchemy-therapy.md
+proposal-alchemy-therapy.html
+Proposal-Alchemy-Therapy.pdf
 pitch.md
+resume.md
+resume.html
+Frank-Epps-Developer-Resume.pdf
+Frank-Epps-Developer-Resume.BACKUP.pdf
+.vercel/
+private/
+_NOTE-from-codex-Claude.md

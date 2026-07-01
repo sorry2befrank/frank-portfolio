@@ -376,6 +376,28 @@
 
         <article class="card reveal">
           <span class="ref">INSTR · 001</span>
+          <h3>AI Content Engine</h3>
+          <div class="role">Autonomous multi-agent system</div>
+          <p>An autonomous marketing engine: a Strategist agent (Claude tool use) plans and drafts platform-native content, a separate Critic agent vets every draft, and a human approves before an autonomous scheduler publishes — all behind hard safety rails (kill switch, budget caps, audit log). Backed by an automated eval harness that gates the agent's output. Deployed and running live.</p>
+          <div class="tags">
+            <span class="tag">Multi-agent</span><span class="tag">Claude tool use</span><span class="tag">AI evals</span><span class="tag">Human-in-the-loop</span>
+          </div>
+          <a class="visit muted">Case study on request</a>
+        </article>
+
+        <article class="card reveal">
+          <span class="ref">INSTR · 002</span>
+          <h3>Ask&#8209;Your&#8209;World</h3>
+          <div class="role">Semantic search &amp; RAG</div>
+          <p>Ask a question in plain language and get an answer grounded in your own knowledge base — with citations, not hallucinations. Semantic search and retrieval&#8209;augmented generation over a 100K&#8209;word codex, built on pgvector and Supabase, with an evaluation pass so retrieval stays honest. Shipped inside a live novelist's workspace.</p>
+          <div class="tags">
+            <span class="tag">RAG</span><span class="tag">pgvector</span><span class="tag">Vector search</span><span class="tag">Claude API</span>
+          </div>
+          <a class="visit" href="https://authors-codex.vercel.app" target="_blank" rel="noopener">View live &rarr;</a>
+        </article>
+
+        <article class="card reveal">
+          <span class="ref">INSTR · 003</span>
           <h3>Michael</h3>
           <div class="role">Personal cosmology instrument</div>
           <p>Pulls fasting cycles, lunar and planetary timing, numerology, and astrocartography into a single dashboard, then uses the Claude API to generate a synthesis reading across all of it. A hard test of modeling many unrelated data systems into one coherent interface.</p>
@@ -386,7 +408,7 @@
         </article>
 
         <article class="card reveal">
-          <span class="ref">INSTR · 002</span>
+          <span class="ref">INSTR · 004</span>
           <h3>Authors Codex</h3>
           <div class="role">Novelist's workspace</div>
           <p>Manuscript management with a linked character-and-world codex and story mapping, plus an AI intake that turns raw notes into structured story data. A full CRUD product with real relational complexity underneath.</p>
@@ -397,7 +419,7 @@
         </article>
 
         <article class="card reveal">
-          <span class="ref">INSTR · 003</span>
+          <span class="ref">INSTR · 005</span>
           <h3>Trade Ledger</h3>
           <div class="role">Options trading journal</div>
           <p>Live market data, a Black&#8209;Scholes analyzer, pattern detection, and AI-written trade reviews. Real-time financial integration plus quantitative computation, wrapped in a journal traders actually want to open.</p>
@@ -408,18 +430,18 @@
         </article>
 
         <article class="card reveal">
-          <span class="ref">INSTR · 004</span>
-          <h3>Pulse Desk</h3>
-          <div class="role">Intraday market tracker</div>
-          <p>Live 0DTE options tracking with a composite entry-scoring model built for fast intraday decisions. A latency-sensitive dashboard that has to stay readable while the numbers move.</p>
+          <span class="ref">INSTR · 006</span>
+          <h3>Sachiel</h3>
+          <div class="role">Real&#8209;time options intelligence</div>
+          <p>A live intraday decision&#8209;support system for 0DTE options: real&#8209;time Schwab brokerage data, a five&#8209;family signal engine, and an Expected&#8209;Value / Kelly model that ranks contracts by asymmetry. A Python/FastAPI quant engine runs Black&#8209;Scholes and a multi&#8209;year backtest, and an accuracy lab measures each signal's real win rate before it's trusted. TypeScript strict mode, ~96 unit tests.</p>
           <div class="tags">
-            <span class="tag">Real-time</span><span class="tag">Scoring engine</span><span class="tag">Next.js</span>
+            <span class="tag">Schwab API</span><span class="tag">Python / FastAPI</span><span class="tag">EV / Kelly</span><span class="tag">Backtesting</span>
           </div>
           <a class="visit muted">Case study on request</a>
         </article>
 
         <article class="card reveal">
-          <span class="ref">INSTR · 005</span>
+          <span class="ref">INSTR · 007</span>
           <h3>Content Studio</h3>
           <div class="role">AI content engine</div>
           <p>Generates structured wellness content and analyzes video against a consistent framing model. An end-to-end AI pipeline — prompt design, structured output, and a usable editing surface on top.</p>
@@ -430,7 +452,7 @@
         </article>
 
         <article class="card reveal">
-          <span class="ref">INSTR · 006</span>
+          <span class="ref">INSTR · 008</span>
           <h3>Cosmic Blueprint</h3>
           <div class="role">Subscription SaaS product</div>
           <p>A complete paid product: birth data generates a personalized multi-system chart — natal, numerology, transits, compatibility — with Claude API synthesis on top. Full Stripe billing (one&#8209;time and recurring), Supabase auth, and rate-limited serverless APIs. Live and taking payments.</p>
@@ -441,7 +463,7 @@
         </article>
 
         <article class="card reveal">
-          <span class="ref">INSTR · 007</span>
+          <span class="ref">INSTR · 009</span>
           <h3>Cosmic Atlas</h3>
           <div class="role">Astro-atlas SaaS · built &amp; sold</div>
           <p>Astrocartography (mapping where a person thrives geographically), career and business transit timing, and relationship compatibility — driven by a custom chart engine with AI-written interpretations. Three-tier Stripe paywall, Supabase auth with row-level security, and rate-limited serverless APIs. Built end to end and sold to a buyer.</p>
@@ -452,7 +474,29 @@
         </article>
 
         <article class="card reveal">
-          <span class="ref">INSTR · 008</span>
+          <span class="ref">INSTR · 010</span>
+          <h3>Interfaith Library</h3>
+          <div class="role">Cross&#8209;tradition wisdom library</div>
+          <p>A searchable library of concepts, figures, and practices across 10+ spiritual traditions, with side&#8209;by&#8209;side comparison, D3 concept maps, and an AI "council" mode for guided exploration. Fast full&#8209;text search over a curated, structured corpus.</p>
+          <div class="tags">
+            <span class="tag">React</span><span class="tag">D3</span><span class="tag">Full-text search</span><span class="tag">Claude API</span>
+          </div>
+          <a class="visit" href="https://interfaith-library.vercel.app" target="_blank" rel="noopener">View live &rarr;</a>
+        </article>
+
+        <article class="card reveal">
+          <span class="ref">INSTR · 011</span>
+          <h3>Three Mountaintops</h3>
+          <div class="role">Tier-gated membership platform</div>
+          <p>A live membership platform where one signed session (Patreon OAuth + HMAC) gates content across three surfaces — a codex website, a Phaser browser game, and a Godot/WebAssembly game. Build-time redaction strips locked content and images from the public build (spoiler-safe), re-checked server-side per verified tier. Includes OpenAI image generation cached in Vercel Blob and a tier-gated, lore-grounded Claude chat (RAG over the world bible).</p>
+          <div class="tags">
+            <span class="tag">Patreon OAuth</span><span class="tag">Edge / Serverless</span><span class="tag">OpenAI</span><span class="tag">RAG chat</span>
+          </div>
+          <a class="visit" href="https://threemountaintops.world" target="_blank" rel="noopener">View live &rarr;</a>
+        </article>
+
+        <article class="card reveal">
+          <span class="ref">INSTR · 012</span>
           <h3>The Path</h3>
           <div class="role">Narrative RPG · Godot 4 + C#</div>
           <p>A 2D role-playing game built in Godot&nbsp;4 with C# and .NET — a component-based engine with a dialogue system, interactable world objects, and scene transitions. Exported to HTML5 and embedded in a web page that gates chapters by membership tier through a JavaScript bridge. In active development; included as a measure of range beyond the web stack.</p>
